@@ -1,9 +1,26 @@
 import "./CartScreen.css"
+import CartItem from "../components/CartItem"
 
 const CartScreen = () => {
     return (
         <div className="cartscreen">
-            Cartscreen
+            <div className="cartscreen__left">
+                <h2>Shopping Cart</h2>
+
+                <CartItem />
+                <CartItem />
+                <CartItem />
+            </div>
+
+            <div className="cartscreen__right">
+                <div className="cartscreen__info">
+                    <p>Subtotal</p>
+                    <p>3123</p>
+                </div>
+                <div>
+                    <button>Proceed to Checkout</button>
+                </div>
+            </div>
         </div>
     )
 }
