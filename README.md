@@ -1,1 +1,1 @@
-# mern-prac
+# Practice project for MERN stack
